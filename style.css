@@ -267,6 +267,7 @@
   }
 }
 
+
 /* ABOUT HOME */
 .about__home{
   padding-top:13rem;
@@ -277,8 +278,6 @@
   display:grid;
   grid-template-columns:1fr 1fr;
   align-items:center;
-  display:flex;
-  flex-direction:row-reverse;
   gap:12rem;
 }
 .about__home .about_home__wrapper .about_home__text h5{
@@ -291,6 +290,7 @@
   margin-bottom:3rem;
   text-align:justify;
 }
+
 @media screen and (max-width:500px){
   .about__home{
     padding-left:2rem;
@@ -299,17 +299,16 @@
   .about__home .about_home__wrapper{
     display:grid;
     grid-template-columns:1fr;
-    display:flex;
-    flex-direction:column-reverse;
     gap:1rem;
   }
   .about__home .about_home__wrapper .about_home__text h5{
     text-align:center;
+    padding-top:1rem;
   }
   .about__home img{
     width:20rem;
     margin:0 auto;
-    padding-bottom:2rem;
+    padding-bottom:2.5rem;
   }
 }
 
