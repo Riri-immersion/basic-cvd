@@ -410,6 +410,79 @@
   }
 }
 
+/* FREE */
+.free{
+  background:#ffa700;
+  padding:4rem;
+}
+.free .free__wrapper{
+  text-align:center;
+}
+.free .free__wrapper h3{
+  font-size:2.3rem;
+  font-weight:600;
+  padding-bottom:0.5rem;
+}
+.free .free__wrapper a{
+  display:inline-block;
+  padding:1.5rem 2rem;
+  border-radius:5rem;
+  color:#ffffff;
+  background:#2b2b2b;
+  margin-top:2rem;
+}
+
+@media screen and (max-width:500px){
+  .free .free__wrapper p{
+    font-size:1.5rem;
+  }
+}
+
+/* FOOTER */
+.footer{
+  background:#2b2b2b;
+}
+.footer .footer__wrapper{
+  padding:1rem;
+}
+.footer .footer__wrapper{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer .footer_social ul{
+  display:flex;
+  flex-direction:row;
+}
+.footer .footer_social ul li a{
+  color:darkgray;
+  padding-right: 1rem;
+}
+.footer .footer__wrapper p{
+  color:darkgray;
+  font-size:1.5rem;
+  display:flex;
+  justify-content: end;
+}
+.footer .footer_social{
+  display:flex;
+  justify-content:space-between;
+}
+
+@media screen and (max-width:500px){
+  .footer .footer_social ul li a{
+    font-size:1.2rem;
+    display:flex;
+    padding-top:1.5rem;
+  }
+  .footer .footer__wrapper p{
+    font-size:1rem;
+    display:flex;
+    align-items: center;
+  }
+  }
+  
+
+
 /* REPEATABLE PATTERNS */
 .btn{
   display:inline-block;
