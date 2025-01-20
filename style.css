@@ -626,7 +626,7 @@
 .services{
   width:1280px;
   margin:auto;
-  background:pink;
+  background:#ffffff;
   padding-top:18rem;
   padding-left: 6rem;
 }
@@ -665,7 +665,7 @@
   justify-content:flex-end;
   padding-bottom:5rem;
 }
-.services .services__wrapper:nth-child(2){
+/* .services .services__wrapper:nth-child(2){
 width:1280px;
   margin:auto;
   background:#2b2b2b;
@@ -676,7 +676,9 @@ width:1280px;
   display: flex;
   flex-direction: row-reverse;
 }
-
+.services .services__wrapper i:nth-child(2){
+  
+} */
 
 /* REPEATABLE PATTERNS */
 .btn{
