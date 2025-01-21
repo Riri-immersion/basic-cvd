@@ -623,62 +623,68 @@
 }
 
 /* SERVICES */
-.services{
-  width:1280px;
-  margin:auto;
-  background:#ffffff;
-  padding-top:18rem;
-  padding-left: 6rem;
+.serviceItem {
+  padding-top: 13rem;
+  max-width: 200rem;
+  margin: 0 auto;
+  text-align: center;
 }
-.services .services__wrapper {
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  align-items:center;
-  gap:8rem;
+.serviceItem .service__wrapper {
+  display: flex;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  gap: 10rem;
+  padding-left: 30rem;
+  padding-right: 30rem;
+  text-align: left;
 }
-.services .services__text h3{
-  color:#ffa700;
-  font-size:6rem;
-  font-weight:800;
-  padding-bottom:2rem;
+.serviceItem .service__text h1 {
+  color: #ffa700;
+  font-size: 5rem;
+  font-weight: 600;
+  padding-bottom: 3rem;
 }
-.services .services__text p{
-  text-align:justify;
-  padding-bottom:2.5rem;
+.serviceItem .service__text p {
+  text-align: justify;
+  line-height: 1.5;
+  padding-bottom: 3rem;
 }
-.services .services__text .services__pricing p{
-  padding-bottom:0rem;
+.serviceItem .service__text h4 {
+  font-size: 3rem;
+  color: #ffa700;
+  font-weight: 550;
 }
-.services .services__text .services__pricing p span{
+.serviceItem .service__text p span {
   font-style: italic;
-  font-size:1.3rem;
 }
-.services .services__text .services__pricing h5{
-  font-size:2.5rem;
-  font-weight:600;
-  color:#ffa700;
-}
-.services .services__wrapper i{
-  font-size:3.5rem;
-  color:#ffa700;
-  display:flex;
-  justify-content:flex-end;
+.serviceItem i {
+  font-size: 5rem;
+  color: #ffa700;
+  padding-top: 5rem;
   padding-bottom:5rem;
 }
-/* .services .services__wrapper:nth-child(2){
-width:1280px;
-  margin:auto;
-  background:#2b2b2b;
-  padding-top:18rem;
-  padding-left:6rem;
+ .serviceItem:nth-child(even){
+  color: #ffffff;
+ }
+
+.serviceItem:nth-child(even) {
+  background-color: #2b2b2b;
 }
-.services .services__wrapper:nth-child(2){
-  display: flex;
+
+.serviceItem:nth-child(even) .service__wrapper {
   flex-direction: row-reverse;
 }
-.services .services__wrapper i:nth-child(2){
+.serviceItem:nth-child(3){
+  padding-bottom:3rem;
+}
+.serviceItem:last-child i{
+  display: none;
+}
+.serviceItem:nth-child(4){
+  display: none;
+}
   
-} */
+
 
 /* REPEATABLE PATTERNS */
 .btn{
