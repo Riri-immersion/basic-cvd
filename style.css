@@ -881,10 +881,37 @@ display: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .contact{
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgray;
   padding-top:13rem;
-  padding-bottom:25rem;
   background:#2b2b2b;
+
+}
+.contact__info input,
+.contact__info textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #2b2b2b;
+  font-size: 12px;
+  resize: none;
+}
+.contact__info form button{
+  padding: 15px 20px;
+  background-color: #ffa700;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+}
+.contact__info form button:hover{
+  scale: 1.1;
+}
+.contact__info form{
+  text-align: end;
 }
 .contact .contact__wrapper{
   display: grid;
@@ -894,19 +921,17 @@ display: none;
   color:#ffa700;
   font-size:5rem;
   font-weight:800;
-}
-.contact .contact__item2{
+}.contact .contact__item2{
   display: grid;
   grid-template-columns: 0.1fr 0.6fr;
-  margin-top:8rem;
 }
-.contact .contact__text h6{
+.contact .contact__title h6{
   color:#ffffff;
   margin-top:3rem;
 }
 .contact .contact__item2 p{
   color:#ffffff;
-  margin-bottom: 3rem;
+  margin-bottom: 0rem;
 }
 .contact .contact__text ul li i{
   color:#ffa700;
@@ -931,10 +956,40 @@ display: none;
 .contact .contact__info p{
   background-color:#ffffff;
   padding:1.5rem 2rem;
-  margin:2rem;
+  margin:3rem;
 }
 .contact .contact__info .message p{
   padding-bottom: 10rem;
+}
+.contact ul p{
+  padding-top:3rem;
+}
+.contact ul li{
+  padding-top: 3rem;
+}
+@media screen and (max-width:500px){
+  .contact{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .contact .contact__wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contact .contact__item{
+    display: flex;
+    justify-content: center;
+  }
+  .contact .contact__item2{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+  }
+  .contact .contact__info{
+    margin-top:6rem;
+  }
+  .contact .contact__info .btn{
+    margin-left:22rem;
+  }
 }
 @media screen and (max-width:500px){
   .contact{
