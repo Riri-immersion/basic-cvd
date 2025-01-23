@@ -1029,3 +1029,20 @@ display: none;
 .btn.bg--primary{
   background:#ffa700;
 }
+
+.backToTop{
+  position:fixed;
+  z-index:999;
+  bottom:5rem;
+  right:5rem;
+  display:none;
+}
+.backToTop.open{
+  display:block;
+}
+.backToTop a{
+  background:#ffa700;
+  padding:1rem;
+  border-radius:5rem;
+  color:#2b2b2b;
+}
