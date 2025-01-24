@@ -976,6 +976,12 @@ display: none;
     display: grid;
     grid-template-columns: 1fr;
   }
+  .contact .contact__title h4{
+    text-align: center;
+  }
+  .contact .contact__text h6{
+    text-align: center;
+  }
   .contact .contact__item{
     display: flex;
     justify-content: center;
